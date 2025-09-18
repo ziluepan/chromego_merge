@@ -754,19 +754,14 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: United States_None_trojan_1137
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+- name: Singapore_None_trojan_1137
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: de.viefast.net
+  skip-cert-verify: true
+  sni: csapp.catch.net.tw
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -968,7 +963,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1134
   - Japan_Tokyo_vmess_1135
   - United States_Dallas_vmess_1136
-  - United States_None_trojan_1137
+  - Singapore_None_trojan_1137
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
