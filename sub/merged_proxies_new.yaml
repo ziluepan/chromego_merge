@@ -442,7 +442,6 @@ proxies:
   server: 203.198.122.129
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: China_Jinan_vmess_1117
