@@ -153,7 +153,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Bangladesh_None_vmess_102
+  name: Hong Kong_Central_vmess_102
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -422,7 +422,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Bangladesh_None_vmess_1112
+  name: Hong Kong_Central_vmess_1112
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -592,62 +592,6 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: The Netherlands_Amsterdam_hy_0
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands_Amsterdam_hy_1
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands_Amsterdam_hy_2
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands_Amsterdam_hy_3
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -699,7 +643,7 @@ proxy-groups:
   - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United Kingdom_London_ss_101
-  - Bangladesh_None_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Sheung Shui_trojan_104
   - China_None_trojan_105
@@ -729,7 +673,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United Kingdom_London_ss_1111
-  - Bangladesh_None_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_None_ss_1113
   - Hong Kong_Sheung Shui_trojan_1114
   - China_None_trojan_1115
@@ -748,10 +692,6 @@ proxy-groups:
   - China_None_trojan_1128
   - Hong Kong_San Po Kong_trojan_1129
   - United States_None_trojan_1130
-  - The Netherlands_Amsterdam_hy_0
-  - The Netherlands_Amsterdam_hy_1
-  - The Netherlands_Amsterdam_hy_2
-  - The Netherlands_Amsterdam_hy_3
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
