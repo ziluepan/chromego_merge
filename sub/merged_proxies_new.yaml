@@ -214,7 +214,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_1023
+- name: United States_None_trojan_1023
   network: ws
   password: 5a2c16f9
   port: 443
@@ -551,7 +551,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_1133
+- name: United States_None_trojan_1133
   network: ws
   password: 5a2c16f9
   port: 443
@@ -640,7 +640,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1020
   - None_None_trojan_1021
   - United Kingdom_None_vmess_1022
-  - None_None_trojan_1023
+  - United States_None_trojan_1023
   - None_None_trojan_1024
   - Taiwan_Chiayi City_trojan_1025
   - Taiwan_Chiayi City_trojan_1026
@@ -677,7 +677,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1130
   - None_None_trojan_1131
   - United Kingdom_None_vmess_1132
-  - None_None_trojan_1133
+  - United States_None_trojan_1133
   - None_None_trojan_1134
   - Taiwan_Chiayi City_trojan_1135
   - Taiwan_Chiayi City_trojan_1136
