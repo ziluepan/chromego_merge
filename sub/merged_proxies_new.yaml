@@ -693,7 +693,7 @@ proxies:
   skip-cert-verify: true
   sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20'
   type: trojan
-- name: Hong Kong_Eastern_trojan_1160
+- name: Hong Kong_Fanling_trojan_1160
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 21521
   server: hkt-ty-line-1.sudatech.store
@@ -854,7 +854,7 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_1183
+- name: Germany_Frankfurt am Main_trojan_1183
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10028
   server: z-eu2.2513142.xyz
@@ -882,7 +882,7 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_1187
+- name: Germany_Frankfurt am Main_trojan_1187
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10023
   server: z-eu2.2513142.xyz
@@ -896,7 +896,7 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: Germany_Frankfurt am Main_trojan_1189
+- name: United States_None_trojan_1189
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10015
   server: z-eu2.2513142.xyz
@@ -924,28 +924,28 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_1193
+- name: Germany_Frankfurt am Main_trojan_1193
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10020
   server: z-eu2.2513142.xyz
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_1194
+- name: Germany_Frankfurt am Main_trojan_1194
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10012
   server: z-eu1.2513142.xyz
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_1195
+- name: Germany_Frankfurt am Main_trojan_1195
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10012
   server: z-eu2.2513142.xyz
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_1196
+- name: Germany_Frankfurt am Main_trojan_1196
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10018
   server: z-eu1.2513142.xyz
@@ -973,7 +973,7 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: Germany_Frankfurt am Main_trojan_11100
+- name: United States_None_trojan_11100
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10027
   server: z-eu1.2513142.xyz
@@ -1001,7 +1001,7 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: Germany_Frankfurt am Main_trojan_11104
+- name: United States_None_trojan_11104
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10021
   server: z-eu2.2513142.xyz
@@ -1022,14 +1022,14 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: Germany_Frankfurt am Main_trojan_11107
+- name: United States_None_trojan_11107
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10006
   server: z-eu1.2513142.xyz
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: Germany_Frankfurt am Main_trojan_11108
+- name: United States_None_trojan_11108
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10006
   server: z-eu2.2513142.xyz
@@ -1050,7 +1050,7 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: Germany_Frankfurt am Main_trojan_11111
+- name: United States_None_trojan_11111
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10011
   server: z-eu1.2513142.xyz
@@ -1120,14 +1120,14 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_11121
+- name: Germany_Frankfurt am Main_trojan_11121
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10031
   server: z-eu1.2513142.xyz
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-- name: United States_None_trojan_11122
+- name: Germany_Frankfurt am Main_trojan_11122
   password: smart@-PhVxMdT5OVnjtTecU-kZoej
   port: 10031
   server: z-eu2.2513142.xyz
@@ -1165,7 +1165,7 @@ proxies:
     path: '%2Fimages'
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Wong Tai Sin_vmess_11126
+  name: Hong Kong_Jordan_vmess_11126
   network: ws
   port: '80'
   server: 8a5b33b6-t70f40-tedirp-1fli7.hkt.gotochinatown.net
@@ -1178,7 +1178,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Wong Tai Sin_vmess_11127
+  name: Hong Kong_Jordan_vmess_11127
   network: ws
   port: '80'
   server: 3c10fcdf-t6r5s0-tdcdb7-1k27l.hkt.gotochinatown.net
@@ -1191,7 +1191,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Wong Tai Sin_vmess_11128
+  name: Hong Kong_Jordan_vmess_11128
   network: ws
   port: '80'
   server: 76dc4cf6-t70f40-tn57fp-5ifr.hkt.gotochinatown.net
@@ -1218,7 +1218,6 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: Hong Kong_Central_trojan_11131
-  network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 443
   server: 58.152.18.48
@@ -1242,7 +1241,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_11134
-  network: tcp
   password: BxceQaOe
   port: 26378
   server: 54.199.47.127
@@ -1250,7 +1248,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_11135
-  network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 4006
   server: 54.199.47.127
@@ -1258,7 +1255,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_11136
-  network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1933
   server: 54.199.47.127
@@ -1278,7 +1274,6 @@ proxies:
   server: 221.150.109.90
   type: ss
 - name: Japan_Tokyo_trojan_11139
-  network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
   server: 52.198.241.226
@@ -1294,7 +1289,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_11141
-  network: tcp
   password: BxceQaOe
   port: 3127
   server: 54.249.149.192
@@ -1302,7 +1296,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_11142
-  network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
   server: 54.199.47.127
@@ -1318,7 +1311,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_11144
-  network: tcp
   password: BxceQaOe
   port: 1112
   server: 18.181.195.198
@@ -1341,7 +1333,80 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United Arab Emirates_None_trojan_11147
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Jordan_vmess_11147
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- name: Hong Kong_Sheung Shui_trojan_11148
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 443
+  server: 58.152.110.104
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_11149
+  network: tcp
+  password: BxceQaOe
+  port: 3760
+  server: 57.180.10.245
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: Japan_Tokyo_trojan_11150
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 4006
+  server: 13.231.188.173
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_11151
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 1933
+  server: 13.231.188.173
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_11152
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 3901
+  server: 13.231.188.173
+  sni: www.nintendogames.net
+  type: trojan
+- name: Hong Kong_None_trojan_11153
+  network: tcp
+  password: BxceQaOe
+  port: 804
+  server: 18.163.28.248
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: Japan_Tokyo_trojan_11154
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 1281
+  server: 13.231.188.173
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_11155
+  network: tcp
+  password: BxceQaOe
+  port: 1221
+  server: 13.231.188.173
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: United Arab Emirates_None_trojan_11156
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -1354,7 +1419,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: United Kingdom_London_trojan_11148
+- name: United Kingdom_London_trojan_11157
   password: R8ufkVqwRZAgtwjyrA
   port: 443
   server: uk-1.fishchipsexpress.com
@@ -1362,7 +1427,7 @@ proxies:
   sni: uk-1.fishchipsexpress.com
   type: trojan
   udp: true
-- name: United States_None_trojan_11149
+- name: United States_None_trojan_11158
   network: ws
   password: Aimer
   port: 2053
@@ -1375,7 +1440,7 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /
-- name: United States_None_trojan_11150
+- name: United States_None_trojan_11159
   network: ws
   password: Aimer
   port: 2053
@@ -1388,7 +1453,7 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed=2560
-- name: United States_None_trojan_11151
+- name: United States_None_trojan_11160
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -1495,7 +1560,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_1157
   - Hong Kong_Central_trojan_1158
   - Hong Kong_Central_trojan_1159
-  - Hong Kong_Eastern_trojan_1160
+  - Hong Kong_Fanling_trojan_1160
   - Singapore_Singapore_trojan_1161
   - Singapore_Singapore_trojan_1162
   - Singapore_Singapore_trojan_1163
@@ -1518,35 +1583,35 @@ proxy-groups:
   - Germany_Frankfurt am Main_trojan_1180
   - United States_None_trojan_1181
   - Germany_Frankfurt am Main_trojan_1182
-  - United States_None_trojan_1183
+  - Germany_Frankfurt am Main_trojan_1183
   - Germany_Frankfurt am Main_trojan_1184
   - Germany_Frankfurt am Main_trojan_1185
   - Germany_Frankfurt am Main_trojan_1186
-  - United States_None_trojan_1187
+  - Germany_Frankfurt am Main_trojan_1187
   - United States_None_trojan_1188
-  - Germany_Frankfurt am Main_trojan_1189
+  - United States_None_trojan_1189
   - Germany_Frankfurt am Main_trojan_1190
   - Germany_Frankfurt am Main_trojan_1191
   - United States_None_trojan_1192
-  - United States_None_trojan_1193
-  - United States_None_trojan_1194
-  - United States_None_trojan_1195
-  - United States_None_trojan_1196
+  - Germany_Frankfurt am Main_trojan_1193
+  - Germany_Frankfurt am Main_trojan_1194
+  - Germany_Frankfurt am Main_trojan_1195
+  - Germany_Frankfurt am Main_trojan_1196
   - United States_None_trojan_1197
   - Germany_Frankfurt am Main_trojan_1198
   - Germany_Frankfurt am Main_trojan_1199
-  - Germany_Frankfurt am Main_trojan_11100
+  - United States_None_trojan_11100
   - Poland_None_trojan_11101
   - Germany_Frankfurt am Main_trojan_11102
   - Germany_Frankfurt am Main_trojan_11103
-  - Germany_Frankfurt am Main_trojan_11104
+  - United States_None_trojan_11104
   - Germany_Frankfurt am Main_trojan_11105
   - Germany_Frankfurt am Main_trojan_11106
-  - Germany_Frankfurt am Main_trojan_11107
-  - Germany_Frankfurt am Main_trojan_11108
+  - United States_None_trojan_11107
+  - United States_None_trojan_11108
   - United States_None_trojan_11109
   - United States_None_trojan_11110
-  - Germany_Frankfurt am Main_trojan_11111
+  - United States_None_trojan_11111
   - United States_None_trojan_11112
   - United States_None_trojan_11113
   - United States_None_trojan_11114
@@ -1556,14 +1621,14 @@ proxy-groups:
   - Peru_Lima_trojan_11118
   - United States_Boardman_trojan_11119
   - South Africa_None_trojan_11120
-  - United States_None_trojan_11121
-  - United States_None_trojan_11122
+  - Germany_Frankfurt am Main_trojan_11121
+  - Germany_Frankfurt am Main_trojan_11122
   - India_Mumbai_trojan_11123
   - Singapore_None_trojan_11124
   - Canada_Ottawa_trojan_11125
-  - Hong Kong_Wong Tai Sin_vmess_11126
-  - Hong Kong_Wong Tai Sin_vmess_11127
-  - Hong Kong_Wong Tai Sin_vmess_11128
+  - Hong Kong_Jordan_vmess_11126
+  - Hong Kong_Jordan_vmess_11127
+  - Hong Kong_Jordan_vmess_11128
   - United States_None_ss_11129
   - Hong Kong_Central_vmess_11130
   - Hong Kong_Central_trojan_11131
@@ -1582,11 +1647,20 @@ proxy-groups:
   - Japan_Tokyo_trojan_11144
   - Vietnam_None_ss_11145
   - Hong Kong_Central_vmess_11146
-  - United Arab Emirates_None_trojan_11147
-  - United Kingdom_London_trojan_11148
-  - United States_None_trojan_11149
-  - United States_None_trojan_11150
-  - United States_None_trojan_11151
+  - Hong Kong_Jordan_vmess_11147
+  - Hong Kong_Sheung Shui_trojan_11148
+  - Japan_Tokyo_trojan_11149
+  - Japan_Tokyo_trojan_11150
+  - Japan_Tokyo_trojan_11151
+  - Japan_Tokyo_trojan_11152
+  - Hong Kong_None_trojan_11153
+  - Japan_Tokyo_trojan_11154
+  - Japan_Tokyo_trojan_11155
+  - United Arab Emirates_None_trojan_11156
+  - United Kingdom_London_trojan_11157
+  - United States_None_trojan_11158
+  - United States_None_trojan_11159
+  - United States_None_trojan_11160
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
