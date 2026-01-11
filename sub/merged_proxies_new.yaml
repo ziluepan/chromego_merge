@@ -39,7 +39,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_103
+  name: Hong Kong_Kowloon_vmess_103
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1007,7 +1007,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: None_None_trojan_11109
+- name: United States_None_trojan_11109
   network: ws
   password: d5d48bc6-87e7-4b40-ad03-d0628532e8ea
   port: 2087
@@ -1019,7 +1019,7 @@ proxies:
     headers:
       Host: 17679677975393.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_11110
+- name: United States_None_trojan_11110
   network: ws
   password: d5d48bc6-87e7-4b40-ad03-d0628532e8ea
   port: 2087
@@ -1156,7 +1156,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_11122
+  name: Hong Kong_Kowloon_vmess_11122
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1285,7 +1285,7 @@ proxy-groups:
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Hong Kong_Central_vmess_103
+  - Hong Kong_Kowloon_vmess_103
   - Hong Kong_Kowloon_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Japan_Tokyo_trojan_106
@@ -1408,8 +1408,8 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_11106
   - Japan_None_vmess_11107
   - Hong Kong_Central_vmess_11108
-  - None_None_trojan_11109
-  - None_None_trojan_11110
+  - United States_None_trojan_11109
+  - United States_None_trojan_11110
   - None_None_trojan_11111
   - None_None_trojan_11112
   - None_None_trojan_11113
@@ -1421,7 +1421,7 @@ proxy-groups:
   - None_None_trojan_11119
   - United States_None_ss_11120
   - Hong Kong_Central_vmess_11121
-  - Hong Kong_Central_vmess_11122
+  - Hong Kong_Kowloon_vmess_11122
   - Hong Kong_Sai Wan_trojan_11123
   - Japan_Tokyo_trojan_11124
   - Japan_Tokyo_trojan_11125
