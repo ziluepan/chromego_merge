@@ -669,7 +669,7 @@ proxies:
     path: '%2FeyJqdW5rIjoiQ3U4MmVDZ3JnUzRLTjdnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ%3D%3D%3Fed%3D2560'
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1162
+  name: None_None_trojan_1162
   network: ws
   password: '123456'
   port: 8443
@@ -705,7 +705,7 @@ proxies:
     path: '%2FeyJqdW5rIjoiUzNoaFZ2Q3hRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ%3D%3D%3Fed%3D2560'
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1165
+  name: None_None_trojan_1165
   network: ws
   password: '123456'
   port: 443
@@ -717,7 +717,7 @@ proxies:
     path: '%2FeyJqdW5rIjoidmNzMWVlWHpNTVh4M2siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19'
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1166
+  name: None_None_trojan_1166
   network: ws
   password: '123456'
   port: 8443
@@ -729,7 +729,7 @@ proxies:
     path: '%2FeyJqdW5rIjoiU3hiSEZzcm93Z2VaMSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0%3D'
 - alpn:
   - http/1.1
-  name: None_None_trojan_1167
+  name: United States_None_trojan_1167
   network: ws
   password: '123456'
   port: 2053
@@ -753,7 +753,7 @@ proxies:
     path: '%2FeyJqdW5rIjoiQ3U4MmVDZ3JnUzRLTjdnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ%3D%3D'
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1169
+  name: None_None_trojan_1169
   network: ws
   password: '123456'
   port: 8443
@@ -765,7 +765,7 @@ proxies:
     path: '%2FeyJqdW5rIjoiTUp4VFNoMTRLbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0%3D'
 - alpn:
   - http/1.1
-  name: None_None_trojan_1170
+  name: United States_None_trojan_1170
   network: ws
   password: '123456'
   port: 8443
@@ -777,7 +777,7 @@ proxies:
     path: '%2FeyJqdW5rIjoiNDhOYUJ4WFhzc0EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19'
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1171
+  name: None_None_trojan_1171
   network: ws
   password: '123456'
   port: 443
@@ -1045,16 +1045,16 @@ proxy-groups:
   - None_None_trojan_1159
   - None_None_trojan_1160
   - United States_None_trojan_1161
-  - United States_None_trojan_1162
+  - None_None_trojan_1162
   - United States_None_trojan_1163
   - None_None_trojan_1164
-  - United States_None_trojan_1165
-  - United States_None_trojan_1166
-  - None_None_trojan_1167
+  - None_None_trojan_1165
+  - None_None_trojan_1166
+  - United States_None_trojan_1167
   - None_None_trojan_1168
-  - United States_None_trojan_1169
-  - None_None_trojan_1170
-  - United States_None_trojan_1171
+  - None_None_trojan_1169
+  - United States_None_trojan_1170
+  - None_None_trojan_1171
   - Hong Kong_Central_vmess_1172
   - United States_None_trojan_1173
   - United States_None_ss_1174
