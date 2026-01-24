@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Wong Tai Sin_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -136,7 +136,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1015
+  name: Hong Kong_Wong Tai Sin_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -300,7 +300,7 @@ proxies:
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- name: None_None_trojan_1119
+- name: United States_San Francisco_trojan_1119
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 2087
@@ -324,7 +324,7 @@ proxies:
     headers:
       Host: 17692413632640.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1121
+- name: United States_San Francisco_trojan_1121
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 2087
@@ -336,7 +336,7 @@ proxies:
     headers:
       Host: 17692413633794.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1122
+- name: None_None_trojan_1122
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 2087
@@ -360,7 +360,7 @@ proxies:
     headers:
       Host: 17692413632493.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1124
+- name: None_None_trojan_1124
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 8443
@@ -384,7 +384,7 @@ proxies:
     headers:
       Host: 17692413632373.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1126
+- name: United States_San Francisco_trojan_1126
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 2053
@@ -504,7 +504,7 @@ proxies:
     headers:
       Host: 17692413639463.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_1136
+- name: None_None_trojan_1136
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 2096
@@ -540,7 +540,7 @@ proxies:
     headers:
       Host: 17692413633021.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1139
+- name: United States_None_trojan_1139
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 8443
@@ -552,7 +552,7 @@ proxies:
     headers:
       Host: 17692413638473.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_1140
+- name: None_None_trojan_1140
   network: ws
   password: 32497489-2052-4219-a0b5-43af86bfcd9b
   port: 2053
@@ -701,7 +701,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1155
+  name: Hong Kong_Wong Tai Sin_vmess_1155
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -798,7 +798,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1167
+  name: Hong Kong_Wong Tai Sin_vmess_1167
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -819,7 +819,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Wong Tai Sin_vmess_102
   - Hong Kong_Central_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_Tsim Sha Tsui_trojan_105
@@ -832,7 +832,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Hong Kong_Wong Tai Sin_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -851,14 +851,14 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_1116
   - Hong Kong_Tsim Sha Tsui_trojan_1117
   - Hong Kong_Tsim Sha Tsui_trojan_1118
-  - None_None_trojan_1119
+  - United States_San Francisco_trojan_1119
   - None_None_trojan_1120
-  - None_None_trojan_1121
-  - United States_San Francisco_trojan_1122
+  - United States_San Francisco_trojan_1121
+  - None_None_trojan_1122
   - None_None_trojan_1123
-  - United States_San Francisco_trojan_1124
+  - None_None_trojan_1124
   - None_None_trojan_1125
-  - None_None_trojan_1126
+  - United States_San Francisco_trojan_1126
   - None_None_trojan_1127
   - None_None_trojan_1128
   - None_None_trojan_1129
@@ -868,11 +868,11 @@ proxy-groups:
   - None_None_trojan_1133
   - None_None_trojan_1134
   - None_None_trojan_1135
-  - United States_None_trojan_1136
+  - None_None_trojan_1136
   - None_None_trojan_1137
   - None_None_trojan_1138
-  - None_None_trojan_1139
-  - United States_None_trojan_1140
+  - United States_None_trojan_1139
+  - None_None_trojan_1140
   - United States_None_trojan_1141
   - China_None_vmess_1142
   - China_None_vmess_1143
@@ -887,7 +887,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1152
   - Hong Kong_Central_vmess_1153
   - United States_None_ss_1154
-  - Hong Kong_Central_vmess_1155
+  - Hong Kong_Wong Tai Sin_vmess_1155
   - Hong Kong_Central_trojan_1156
   - Hong Kong_None_trojan_1157
   - Japan_Tokyo_trojan_1158
@@ -899,7 +899,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1164
   - Japan_Tokyo_trojan_1165
   - Hong Kong_None_trojan_1166
-  - Hong Kong_Central_vmess_1167
+  - Hong Kong_Wong Tai Sin_vmess_1167
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
