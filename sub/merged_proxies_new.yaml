@@ -119,7 +119,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_1013
+  name: Hong Kong_Central_vmess_1013
   network: ws
   port: '80'
   server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
@@ -180,6 +180,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: China_None_trojan_1019
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: China_None_trojan_1020
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  sni: faq1.lieerr222.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -459,7 +474,7 @@ proxies:
   skip-cert-verify: true
   sni: tttyder.wsone.icu
   type: trojan
-- name: China_None_trojan_1135
+- name: China_Guangzhou_trojan_1135
   password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
   port: 55016
   server: ptxl01.xsaym.com
@@ -501,7 +516,7 @@ proxies:
   skip-cert-verify: true
   sni: www.volcengine.com
   type: trojan
-- name: China_Guangzhou_trojan_1141
+- name: China_None_trojan_1141
   password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
   port: 59110
   server: ptxl01.xsaym.com
@@ -663,7 +678,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_1161
+  name: Hong Kong_Central_vmess_1161
   network: ws
   port: '80'
   server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
@@ -714,6 +729,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: China_None_trojan_1166
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: China_None_trojan_1167
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  sni: faq1.lieerr222.cn
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 选择
   type: select
@@ -738,12 +768,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
   - Poland_None_trojan_1012
-  - Hong Kong_Sha Tin Wai_vmess_1013
+  - Hong Kong_Central_vmess_1013
   - China_None_vmess_1014
   - China_None_vmess_1015
   - Hong Kong_Central_vmess_1016
   - China_None_vmess_1017
   - China_None_vmess_1018
+  - China_None_trojan_1019
+  - China_None_trojan_1020
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -778,13 +810,13 @@ proxy-groups:
   - China_None_vmess_1132
   - United Kingdom_None_vmess_1133
   - India_Mumbai_trojan_1134
-  - China_None_trojan_1135
+  - China_Guangzhou_trojan_1135
   - China_Guangzhou_trojan_1136
   - China_None_trojan_1137
   - China_Guangzhou_trojan_1138
   - China_Guangzhou_trojan_1139
   - China_None_trojan_1140
-  - China_Guangzhou_trojan_1141
+  - China_None_trojan_1141
   - China_Guangzhou_trojan_1142
   - China_Guangzhou_trojan_1143
   - China_Guangzhou_trojan_1144
@@ -804,11 +836,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_1158
   - Japan_Tokyo_trojan_1159
   - Poland_None_trojan_1160
-  - Hong Kong_Sha Tin Wai_vmess_1161
+  - Hong Kong_Central_vmess_1161
   - China_None_vmess_1162
   - China_None_vmess_1163
   - Hong Kong_Central_vmess_1164
   - China_None_vmess_1165
+  - China_None_trojan_1166
+  - China_None_trojan_1167
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
