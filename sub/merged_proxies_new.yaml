@@ -520,7 +520,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Ha Kwai Chung_vmess_1145
+  name: Hong Kong_Central_vmess_1145
   network: ws
   port: '80'
   server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net
@@ -755,7 +755,7 @@ proxy-groups:
   - United States_None_trojan_1142
   - China_None_vmess_1143
   - China_None_vmess_1144
-  - Hong Kong_Ha Kwai Chung_vmess_1145
+  - Hong Kong_Central_vmess_1145
   - China_None_vmess_1146
   - China_None_vmess_1147
   - United States_None_ss_1148
