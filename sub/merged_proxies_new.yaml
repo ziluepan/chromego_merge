@@ -451,7 +451,7 @@ proxies:
     headers:
       Host: 17708924951352.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1134
+- name: None_None_trojan_1134
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -655,7 +655,7 @@ proxies:
     headers:
       Host: 17708924952003.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_1151
+- name: United States_None_trojan_1151
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2083
@@ -679,7 +679,7 @@ proxies:
     headers:
       Host: 17708924958981.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: None_None_trojan_1153
+- name: United States_None_trojan_1153
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -691,7 +691,7 @@ proxies:
     headers:
       Host: 17708924959288.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_1154
+- name: None_None_trojan_1154
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2053
@@ -703,7 +703,7 @@ proxies:
     headers:
       Host: 17708924954898.206353.xyz
     path: '%2Fagrbniuh'
-- name: United States_None_trojan_1155
+- name: None_None_trojan_1155
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -1013,37 +1013,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Germany_Frankfurt am Main_trojan_1190
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.77.68.129
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: Germany_Frankfurt am Main_trojan_1191
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.195.91.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: France_Paris_trojan_1192
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.72.19
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: Indonesia_Jakarta_trojan_1193
-  password: M7v%w11Se*
-  port: 443
-  server: qfdfsg.wsone.icu
-  skip-cert-verify: true
-  sni: qfdfsg.wsone.icu
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 选择
   type: select
@@ -1104,7 +1073,7 @@ proxy-groups:
   - United States_San Francisco_trojan_1131
   - United States_San Francisco_trojan_1132
   - United States_San Francisco_trojan_1133
-  - United States_San Francisco_trojan_1134
+  - None_None_trojan_1134
   - United States_San Francisco_trojan_1135
   - United States_San Francisco_trojan_1136
   - None_None_trojan_1137
@@ -1121,11 +1090,11 @@ proxy-groups:
   - None_None_trojan_1148
   - United States_None_trojan_1149
   - None_None_trojan_1150
-  - None_None_trojan_1151
+  - United States_None_trojan_1151
   - None_None_trojan_1152
-  - None_None_trojan_1153
-  - United States_None_trojan_1154
-  - United States_None_trojan_1155
+  - United States_None_trojan_1153
+  - None_None_trojan_1154
+  - None_None_trojan_1155
   - None_None_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Unknown_vmess_1158
@@ -1160,10 +1129,6 @@ proxy-groups:
   - Japan_None_trojan_1187
   - Hong Kong_None_trojan_1188
   - Hong Kong_Central_vmess_1189
-  - Germany_Frankfurt am Main_trojan_1190
-  - Germany_Frankfurt am Main_trojan_1191
-  - France_Paris_trojan_1192
-  - Indonesia_Jakarta_trojan_1193
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
