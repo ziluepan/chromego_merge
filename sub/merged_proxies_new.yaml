@@ -317,7 +317,7 @@ proxies:
     headers:
       Host: 17710527846715.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1119
+- name: None_None_trojan_1119
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2087
@@ -341,7 +341,7 @@ proxies:
     headers:
       Host: 17710527843742.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1121
+- name: United States_San Francisco_trojan_1121
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2087
@@ -353,7 +353,7 @@ proxies:
     headers:
       Host: 17710527846229.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1122
+- name: None_None_trojan_1122
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2096
@@ -377,7 +377,7 @@ proxies:
     headers:
       Host: 17710527843118.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1124
+- name: None_None_trojan_1124
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 8443
@@ -389,7 +389,7 @@ proxies:
     headers:
       Host: 17710527842972.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1125
+- name: None_None_trojan_1125
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2053
@@ -545,7 +545,7 @@ proxies:
     headers:
       Host: 17710527842580.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: None_None_trojan_1138
+- name: United States_None_trojan_1138
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2096
@@ -569,7 +569,7 @@ proxies:
     headers:
       Host: 17710527845673.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_1140
+- name: United States_None_trojan_1140
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2083
@@ -593,7 +593,7 @@ proxies:
     headers:
       Host: 17710527842333.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: None_None_trojan_1142
+- name: United States_None_trojan_1142
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 8443
@@ -605,7 +605,7 @@ proxies:
     headers:
       Host: 17710527848585.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: None_None_trojan_1143
+- name: United States_None_trojan_1143
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
   port: 2053
@@ -855,13 +855,13 @@ proxy-groups:
   - China_None_vmess_1116
   - United Kingdom_None_vmess_1117
   - United States_San Francisco_trojan_1118
-  - United States_San Francisco_trojan_1119
+  - None_None_trojan_1119
   - United States_San Francisco_trojan_1120
-  - None_None_trojan_1121
-  - United States_San Francisco_trojan_1122
+  - United States_San Francisco_trojan_1121
+  - None_None_trojan_1122
   - United States_San Francisco_trojan_1123
-  - United States_San Francisco_trojan_1124
-  - United States_San Francisco_trojan_1125
+  - None_None_trojan_1124
+  - None_None_trojan_1125
   - None_None_trojan_1126
   - None_None_trojan_1127
   - None_None_trojan_1128
@@ -874,12 +874,12 @@ proxy-groups:
   - None_None_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
-  - None_None_trojan_1138
+  - United States_None_trojan_1138
   - None_None_trojan_1139
-  - None_None_trojan_1140
+  - United States_None_trojan_1140
   - None_None_trojan_1141
-  - None_None_trojan_1142
-  - None_None_trojan_1143
+  - United States_None_trojan_1142
+  - United States_None_trojan_1143
   - None_None_trojan_1144
   - United States_None_trojan_1145
   - Hong Kong_Sai Wan_trojan_1146
