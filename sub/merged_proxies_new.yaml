@@ -350,7 +350,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1119
+  name: None_None_trojan_1119
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -827,7 +827,7 @@ proxy-groups:
   - China_None_vmess_1116
   - China_None_vmess_1117
   - United States_None_trojan_1118
-  - United States_None_trojan_1119
+  - None_None_trojan_1119
   - China_None_vmess_1120
   - United States_None_trojan_1121
   - United States_None_trojan_1122
