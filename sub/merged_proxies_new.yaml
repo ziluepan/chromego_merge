@@ -284,7 +284,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_1114
+- name: United States_San Francisco_trojan_1114
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2087
@@ -308,7 +308,7 @@ proxies:
     headers:
       Host: 17725215608114.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1116
+- name: United States_San Francisco_trojan_1116
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2087
@@ -560,7 +560,7 @@ proxies:
     headers:
       Host: 17725215601711.168381.xyz
     path: '%2Ftianboephth'
-- name: None_None_trojan_1137
+- name: United States_None_trojan_1137
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2096
@@ -572,7 +572,7 @@ proxies:
     headers:
       Host: 17725215601401.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_1138
+- name: None_None_trojan_1138
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 8443
@@ -596,7 +596,7 @@ proxies:
     headers:
       Host: 17725215608116.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1140
+- name: United States_None_trojan_1140
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2083
@@ -608,7 +608,7 @@ proxies:
     headers:
       Host: 17725215603067.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: None_None_trojan_1141
+- name: United States_None_trojan_1141
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2083
@@ -908,9 +908,9 @@ proxy-groups:
   - Canada_None_vmess_1111
   - None_None_trojan_1112
   - United Kingdom_None_vmess_1113
-  - None_None_trojan_1114
+  - United States_San Francisco_trojan_1114
   - None_None_trojan_1115
-  - None_None_trojan_1116
+  - United States_San Francisco_trojan_1116
   - United States_San Francisco_trojan_1117
   - None_None_trojan_1118
   - United States_San Francisco_trojan_1119
@@ -931,11 +931,11 @@ proxy-groups:
   - None_None_trojan_1134
   - None_None_trojan_1135
   - None_None_trojan_1136
-  - None_None_trojan_1137
-  - United States_None_trojan_1138
+  - United States_None_trojan_1137
+  - None_None_trojan_1138
   - None_None_trojan_1139
-  - None_None_trojan_1140
-  - None_None_trojan_1141
+  - United States_None_trojan_1140
+  - United States_None_trojan_1141
   - None_None_trojan_1142
   - Bangladesh_None_vmess_1143
   - China_None_vmess_1144
