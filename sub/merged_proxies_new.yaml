@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Tuen Mun_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -150,7 +150,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1017
+  name: Hong Kong_Tuen Mun_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -294,7 +294,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1112
+  name: Hong Kong_Tuen Mun_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -414,7 +414,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1127
+  name: Hong Kong_Tuen Mun_vmess_1127
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -473,7 +473,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - United States_Los Angeles_vmess_103
   - Japan_Tokyo_trojan_104
   - Hong Kong_None_trojan_105
@@ -488,7 +488,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Japan_Tokyo_trojan_1015
   - Japan_Tokyo_trojan_1016
-  - Hong Kong_Central_vmess_1017
+  - Hong Kong_Tuen Mun_vmess_1017
   - United States_Los Angeles_vmess_1018
   - Australia_Sydney_trojan_1019
   - South Korea_Jung-gu_trojan_1020
@@ -504,7 +504,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Tuen Mun_vmess_1112
   - United States_Los Angeles_vmess_1113
   - Japan_Tokyo_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -519,7 +519,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1124
   - Japan_Tokyo_trojan_1125
   - Japan_Tokyo_trojan_1126
-  - Hong Kong_Central_vmess_1127
+  - Hong Kong_Tuen Mun_vmess_1127
   - United States_Los Angeles_vmess_1128
   - Australia_Sydney_trojan_1129
   - South Korea_Jung-gu_trojan_1130
