@@ -143,12 +143,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_San Jose_trojan_1016
+- name: Austria_None_trojan_1016
   network: ws
   password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
+  port: 8444
+  server: 152.53.60.198
+  skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -156,6 +156,21 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: The Netherlands_Meppel_trojan_1017
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: The Netherlands_Meppel_trojan_1018
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  sni: 94.131.105.125
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -367,12 +382,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_San Jose_trojan_1126
+- name: Austria_None_trojan_1126
   network: ws
   password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
+  port: 8444
+  server: 152.53.60.198
+  skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -380,6 +395,21 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: The Netherlands_Meppel_trojan_1127
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: The Netherlands_Meppel_trojan_1128
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  sni: 94.131.105.125
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 选择
   type: select
@@ -407,7 +437,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - United States_San Jose_trojan_1016
+  - Austria_None_trojan_1016
+  - The Netherlands_Meppel_trojan_1017
+  - The Netherlands_Meppel_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -433,7 +465,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_San Jose_trojan_1126
+  - Austria_None_trojan_1126
+  - The Netherlands_Meppel_trojan_1127
+  - The Netherlands_Meppel_trojan_1128
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
