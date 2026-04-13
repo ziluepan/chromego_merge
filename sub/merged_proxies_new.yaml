@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Yuen Long San Hui_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -135,7 +135,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1015
+  name: Hong Kong_Yuen Long San Hui_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -143,19 +143,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_Meppel_trojan_1016
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1017
+- name: United States_None_trojan_1016
   network: ws
   password: trojan
-  port: 50000
-  server: 38.60.89.136
-  skip-cert-verify: false
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -261,7 +254,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1112
+  name: Hong Kong_Yuen Long San Hui_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -366,7 +359,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1125
+  name: Hong Kong_Yuen Long San Hui_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -374,19 +367,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_Meppel_trojan_1126
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_1127
+- name: United States_None_trojan_1126
   network: ws
   password: trojan
-  port: 50000
-  server: 38.60.89.136
-  skip-cert-verify: false
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -407,7 +393,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Yuen Long San Hui_vmess_102
   - Hong Kong_None_trojan_103
   - Japan_Tokyo_trojan_104
   - Poland_None_trojan_105
@@ -420,9 +406,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - United States_None_trojan_1013
   - Japan_Tokyo_trojan_1014
-  - Hong Kong_Central_vmess_1015
-  - The Netherlands_Meppel_trojan_1016
-  - United States_Los Angeles_trojan_1017
+  - Hong Kong_Yuen Long San Hui_vmess_1015
+  - United States_None_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -434,7 +419,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Yuen Long San Hui_vmess_1112
   - Hong Kong_None_trojan_1113
   - Japan_Tokyo_trojan_1114
   - Poland_None_trojan_1115
@@ -447,9 +432,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - United States_None_trojan_1123
   - Japan_Tokyo_trojan_1124
-  - Hong Kong_Central_vmess_1125
-  - The Netherlands_Meppel_trojan_1126
-  - United States_Los Angeles_trojan_1127
+  - Hong Kong_Yuen Long San Hui_vmess_1125
+  - United States_None_trojan_1126
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
