@@ -479,7 +479,7 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: United States_None_vmess_1134
+  name: United Kingdom_None_vmess_1134
   port: 30845
   server: v45.hdacd.com
   skip-cert-verify: false
@@ -551,7 +551,7 @@ proxy-groups:
   - United Kingdom_Enfield_ss_1131
   - United Kingdom_None_vmess_1132
   - United Kingdom_None_vmess_1133
-  - United States_None_vmess_1134
+  - United Kingdom_None_vmess_1134
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
