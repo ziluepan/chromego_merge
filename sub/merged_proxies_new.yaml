@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -135,7 +135,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1015
+  name: Hong Kong_Central_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -303,7 +303,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1112
+  name: Hong Kong_Central_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -408,7 +408,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1125
+  name: Hong Kong_Central_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -416,14 +416,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: France_Paris_ss_1126
-  password: amazonskr05
-  port: '443'
-  server: 35.180.255.4
-  type: ss
-  udp: true
-- name: United Arab Emirates_None_trojan_1127
+- name: United Arab Emirates_None_trojan_1126
   network: ws
   password: MITIVPN
   port: 443
@@ -436,7 +429,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1128
+- name: United Kingdom_None_trojan_1127
   network: ws
   password: MITIVPN
   port: 443
@@ -449,7 +442,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1129
+- name: The Netherlands_None_trojan_1128
   network: ws
   password: MiTiVPN
   port: 443
@@ -462,7 +455,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1130
+- name: United States_None_trojan_1129
   network: ws
   password: Mitivpn
   port: 443
@@ -488,7 +481,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -501,7 +494,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Kowloon_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - United Arab Emirates_None_trojan_1016
   - United Kingdom_None_trojan_1017
   - The Netherlands_None_trojan_1018
@@ -517,7 +510,7 @@ proxy-groups:
   - United States_None_vmess_119
   - United States_None_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Kowloon_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -530,12 +523,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Kowloon_vmess_1125
-  - France_Paris_ss_1126
-  - United Arab Emirates_None_trojan_1127
-  - United Kingdom_None_trojan_1128
-  - The Netherlands_None_trojan_1129
-  - United States_None_trojan_1130
+  - Hong Kong_Central_vmess_1125
+  - United Arab Emirates_None_trojan_1126
+  - United Kingdom_None_trojan_1127
+  - The Netherlands_None_trojan_1128
+  - United States_None_trojan_1129
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
