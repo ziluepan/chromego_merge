@@ -406,29 +406,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_None_trojan_1126
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /in-pdr
-- name: Hong Kong_None_trojan_1127
-  password: BxceQaOe
-  port: '41421'
-  server: 43.198.13.164
+- name: Ireland_Dublin_trojan_1126
+  password: IQ68037294
+  port: 443
+  server: moving-wren.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: moving-wren.rooster465.autos
   type: trojan
   udp: true
-- name: United Arab Emirates_None_trojan_1128
+- name: United Kingdom_Epping_trojan_1127
+  password: IQ68037294
+  port: 443
+  server: amazed-burro.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: Luxembourg_None_trojan_1128
+  password: IQ68037294
+  port: 443
+  server: whole-perch.rooster465.autos
+  skip-cert-verify: true
+  sni: whole-perch.rooster465.autos
+  type: trojan
+  udp: true
+- name: United Kingdom_Epping_trojan_1129
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: enhanced-dassie.rooster465.autos
+  skip-cert-verify: false
+  sni: enhanced-dassie.rooster465.autos
+  type: trojan
+  udp: true
+- name: United Arab Emirates_None_trojan_1130
   network: ws
   password: MITIVPN
   port: 443
@@ -441,7 +451,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1129
+- name: United Kingdom_None_trojan_1131
   network: ws
   password: MITIVPN
   port: 443
@@ -454,7 +464,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1130
+- name: The Netherlands_None_trojan_1132
   network: ws
   password: MiTiVPN
   port: 443
@@ -467,7 +477,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1131
+- name: United States_None_trojan_1133
   network: ws
   password: Mitivpn
   port: 443
@@ -536,12 +546,14 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - The Netherlands_None_trojan_1126
-  - Hong Kong_None_trojan_1127
-  - United Arab Emirates_None_trojan_1128
-  - United Kingdom_None_trojan_1129
-  - The Netherlands_None_trojan_1130
-  - United States_None_trojan_1131
+  - Ireland_Dublin_trojan_1126
+  - United Kingdom_Epping_trojan_1127
+  - Luxembourg_None_trojan_1128
+  - United Kingdom_Epping_trojan_1129
+  - United Arab Emirates_None_trojan_1130
+  - United Kingdom_None_trojan_1131
+  - The Netherlands_None_trojan_1132
+  - United States_None_trojan_1133
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
