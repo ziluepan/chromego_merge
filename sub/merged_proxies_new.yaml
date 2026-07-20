@@ -406,40 +406,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_1126
-  network: ws
-  port: 12883
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: The Netherlands_None_trojan_1127
+- name: The Netherlands_None_trojan_1126
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
+  port: '443'
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /in-pdr
-- name: United States_Boardman_trojan_1128
-  password: XG59623478
-  port: 443
-  server: possible-pup.rooster465.autos
+- name: Hong Kong_None_trojan_1127
+  password: BxceQaOe
+  port: '41421'
+  server: 43.198.13.164
   skip-cert-verify: true
-  sni: possible-pup.rooster465.autos
+  sni: t.me%2Fripaojiedian
   type: trojan
-- name: United Arab Emirates_None_trojan_1129
+  udp: true
+- name: United Arab Emirates_None_trojan_1128
   network: ws
   password: MITIVPN
   port: 443
@@ -452,7 +441,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1130
+- name: United Kingdom_None_trojan_1129
   network: ws
   password: MITIVPN
   port: 443
@@ -465,7 +454,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1131
+- name: The Netherlands_None_trojan_1130
   network: ws
   password: MiTiVPN
   port: 443
@@ -478,7 +467,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1132
+- name: United States_None_trojan_1131
   network: ws
   password: Mitivpn
   port: 443
@@ -547,13 +536,12 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_vmess_1126
-  - The Netherlands_None_trojan_1127
-  - United States_Boardman_trojan_1128
-  - United Arab Emirates_None_trojan_1129
-  - United Kingdom_None_trojan_1130
-  - The Netherlands_None_trojan_1131
-  - United States_None_trojan_1132
+  - The Netherlands_None_trojan_1126
+  - Hong Kong_None_trojan_1127
+  - United Arab Emirates_None_trojan_1128
+  - United Kingdom_None_trojan_1129
+  - The Netherlands_None_trojan_1130
+  - United States_None_trojan_1131
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
