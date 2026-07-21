@@ -406,83 +406,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Singapore_Singapore_trojan_1126
+- name: The Netherlands_None_trojan_1126
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- name: South Korea_None_trojan_1127
   password: IQ68037294
   port: 443
-  server: pleased-sawfly.rooster465.autos
+  server: pet-albacore.rooster465.autos
   skip-cert-verify: true
+  sni: pet-albacore.rooster465.autos
   type: trojan
-- name: United States_Boardman_trojan_1127
-  password: IQ68037294
-  port: '443'
-  server: optimal-dane.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: Singapore_Singapore_trojan_1128
-  password: IQ68037294
-  port: '443'
-  server: casual-stallion.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: South Korea_None_trojan_1129
-  password: IQ68037294
-  port: '443'
-  server: glowing-deer.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: Finland_Helsinki_ss_1130
-  password: r2v53aul8lsaweki
-  port: '25026'
-  server: 0721-syah.kovira2.ir
-  type: ss
-  udp: true
-- name: United States_Michigan City_trojan_1131
-  network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: '49361'
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
-  udp: true
-- name: South Korea_None_trojan_1132
+- name: Japan_Tokyo_trojan_1128
   network: tcp
   password: IQ68037294
   port: '443'
-  server: prepared-turkey.rooster465.autos
+  server: square-anchovy.rooster465.autos
   skip-cert-verify: false
-  sni: prepared-turkey.rooster465.autos
+  sni: square-anchovy.rooster465.autos
   type: trojan
   udp: true
-- name: Singapore_Singapore_trojan_1133
-  network: tcp
-  password: IQ68037294
-  port: '443'
-  server: helpful-possum.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: Singapore_Singapore_trojan_1134
-  network: tcp
-  password: IQ68037294
-  port: '443'
-  server: apt-midge.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1135
-  network: tcp
-  password: IQ68037294
-  port: '443'
-  server: sweeping-parakeet.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United Arab Emirates_None_trojan_1136
+- name: United Arab Emirates_None_trojan_1129
   network: ws
   password: MITIVPN
   port: 443
@@ -495,7 +447,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1137
+- name: United Kingdom_None_trojan_1130
   network: ws
   password: MITIVPN
   port: 443
@@ -508,7 +460,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1138
+- name: The Netherlands_None_trojan_1131
   network: ws
   password: MiTiVPN
   port: 443
@@ -521,7 +473,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1139
+- name: United States_None_trojan_1132
   network: ws
   password: Mitivpn
   port: 443
@@ -590,20 +542,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - Singapore_Singapore_trojan_1126
-  - United States_Boardman_trojan_1127
-  - Singapore_Singapore_trojan_1128
-  - South Korea_None_trojan_1129
-  - Finland_Helsinki_ss_1130
-  - United States_Michigan City_trojan_1131
-  - South Korea_None_trojan_1132
-  - Singapore_Singapore_trojan_1133
-  - Singapore_Singapore_trojan_1134
-  - Japan_Tokyo_trojan_1135
-  - United Arab Emirates_None_trojan_1136
-  - United Kingdom_None_trojan_1137
-  - The Netherlands_None_trojan_1138
-  - United States_None_trojan_1139
+  - The Netherlands_None_trojan_1126
+  - South Korea_None_trojan_1127
+  - Japan_Tokyo_trojan_1128
+  - United Arab Emirates_None_trojan_1129
+  - United Kingdom_None_trojan_1130
+  - The Netherlands_None_trojan_1131
+  - United States_None_trojan_1132
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
