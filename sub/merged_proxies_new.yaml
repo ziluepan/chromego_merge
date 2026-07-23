@@ -406,7 +406,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_None_trojan_1126
+- name: Luxembourg_None_trojan_1126
+  password: FC60532879
+  port: 443
+  server: powerful-opossum.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: South Korea_None_trojan_1127
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: resolved-gelding.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: South Korea_None_trojan_1128
+  password: FC60532879
+  port: 443
+  server: neat-quail.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: The Netherlands_None_trojan_1129
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: '443'
@@ -417,10 +440,39 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /in-pdr
-- name: United Arab Emirates_None_trojan_1127
+- alpn:
+  - h2
+  - http/1.1
+  name: None_None_trojan_1130
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 104.18.39.172
+  skip-cert-verify: true
+  sni: 7u-i--MiTiVPN---MiTiVPN-7.aPp-cLoud.IR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
+- alterId: 2
+  cipher: auto
+  name: United States_None_vmess_1131
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: United Arab Emirates_None_trojan_1132
   network: ws
   password: MITIVPN
   port: 443
@@ -433,7 +485,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1128
+- name: United Kingdom_None_trojan_1133
   network: ws
   password: MITIVPN
   port: 443
@@ -446,7 +498,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1129
+- name: The Netherlands_None_trojan_1134
   network: ws
   password: MiTiVPN
   port: 443
@@ -459,7 +511,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1130
+- name: United States_None_trojan_1135
   network: ws
   password: Mitivpn
   port: 443
@@ -528,11 +580,16 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - The Netherlands_None_trojan_1126
-  - United Arab Emirates_None_trojan_1127
-  - United Kingdom_None_trojan_1128
+  - Luxembourg_None_trojan_1126
+  - South Korea_None_trojan_1127
+  - South Korea_None_trojan_1128
   - The Netherlands_None_trojan_1129
-  - United States_None_trojan_1130
+  - None_None_trojan_1130
+  - United States_None_vmess_1131
+  - United Arab Emirates_None_trojan_1132
+  - United Kingdom_None_trojan_1133
+  - The Netherlands_None_trojan_1134
+  - United States_None_trojan_1135
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
 - DOMAIN-SUFFIX,services.googleapis.cn,选择
