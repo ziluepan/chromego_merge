@@ -406,13 +406,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: United States_Los Angeles_ss_1126
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: '40031'
-  server: permission_level_01.unclemanco.com
+- cipher: aes-256-cfb
+  name: United States_None_ss_1126
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
   type: ss
-  udp: true
 - name: United Arab Emirates_None_trojan_1127
   network: ws
   password: MITIVPN
@@ -521,7 +520,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_Los Angeles_ss_1126
+  - United States_None_ss_1126
   - United Arab Emirates_None_trojan_1127
   - United Kingdom_None_trojan_1128
   - The Netherlands_None_trojan_1129
