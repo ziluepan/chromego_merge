@@ -377,7 +377,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: China_None_vmess_1128
+  name: China_Beijing_vmess_1128
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -476,7 +476,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1125
   - None_None_trojan_1126
   - United States_None_ss_1127
-  - China_None_vmess_1128
+  - China_Beijing_vmess_1128
   - Brazil_Goiânia_trojan_1129
   - South Korea_None_ss_1130
   - United States_None_trojan_1131
