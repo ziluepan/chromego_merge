@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -121,7 +121,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1015
+  name: Hong Kong_Central_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -227,7 +227,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1112
+  name: Hong Kong_Central_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -237,10 +237,9 @@ proxies:
 - cipher: aes-256-gcm
   name: China_None_ss_1113
   password: Butterfly123@qwe9527
-  port: '10001'
+  port: 10001
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: China_None_ss_1114
   password: Butterfly123@qwe9527
@@ -274,16 +273,16 @@ proxies:
 - cipher: aes-256-gcm
   name: China_None_ss_1118
   password: Butterfly123@qwe9527
-  port: '40001'
+  port: 40001
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: China_None_ss_1119
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
+  udp: true
 - name: Japan_Tokyo_trojan_1120
   network: tcp
   password: BxceQaOe
@@ -321,7 +320,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1125
+  name: Hong Kong_Central_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -332,24 +331,26 @@ proxies:
 - cipher: aes-256-cfb
   name: China_None_ss_1126
   password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.136
+  port: 65443
+  server: 121.46.230.138
   type: ss
   udp: true
-- name: United States_None_trojan_1127
+- client-fingerprint: chrome
+  name: United States_None_trojan_1127
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: United States_None_trojan_1128
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20085'
-  server: kkvlvvq-a.catcat321.com
+  port: '20066'
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
@@ -367,7 +368,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - China_None_ss_103
   - China_None_ss_104
   - Japan_Tokyo_trojan_105
@@ -380,7 +381,7 @@ proxy-groups:
   - China_None_ss_1012
   - Singapore_Singapore_trojan_1013
   - China_None_ss_1014
-  - Hong Kong_Man Kok_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -392,7 +393,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Man Kok_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - China_None_ss_1113
   - China_None_ss_1114
   - Japan_Tokyo_trojan_1115
@@ -405,7 +406,7 @@ proxy-groups:
   - China_None_ss_1122
   - Singapore_Singapore_trojan_1123
   - China_None_ss_1124
-  - Hong Kong_Man Kok_vmess_1125
+  - Hong Kong_Central_vmess_1125
   - China_None_ss_1126
   - United States_None_trojan_1127
   - United States_None_trojan_1128
